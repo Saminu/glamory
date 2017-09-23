@@ -51,6 +51,7 @@ app.view.setLayers([
     { source: hud.domElement }
 ]);
 
+
 // add a performance stats thing to the display
 var stats = new Stats();
 // hud.hudElements[0].appendChild(stats.dom);
@@ -79,10 +80,18 @@ button.addEventListener('click', function (event) {
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera();
 var user = new THREE.Object3D;
+
 var boxScene = new THREE.Object3D;
+boxScene.name = "doors";
+
+var galleryScene = new THREE.Object3D();
+galleryScene.name = "gallery";
+
+
 scene.add(camera);
 scene.add(user);
 scene.add(boxScene);
+scene.add(galleryScene);
 
 // an entity for the collection of boxes, which are rooted to the world together
 var boxSceneEntity = new Argon.Cesium.Entity({
@@ -110,8 +119,10 @@ var ambientlight = new THREE.AmbientLight(0x404040); // soft white ambient light
 scene.add(ambientlight);
 /////////////////////////
 
+
 // application variables.  This code started out as the three.js draggablecubes example
 var objects = [];
+var galleries = [];
 var plane = new THREE.Plane();
 var raycaster = new THREE.Raycaster();
 var mouse = new THREE.Vector2();
@@ -124,14 +135,13 @@ var boxInit = false;
 var geoLocked = false;
 
 
-
 var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/door.png') } );
-
 // set up 50 cubes, each with its own entity
 var geometry = new THREE.BoxGeometry(1, 1, 1);
 for (var i = 0; i < 20; i++) {
     // var object = new THREE.Mesh(geometry, new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }));
     var object = new THREE.Mesh(geometry, material1);
+    // object.name = "doors";
     object.position.x = Math.random() * 60 - 25;
     object.position.y = 0;
     object.position.z = Math.random() * 10 -20;
@@ -145,8 +155,6 @@ for (var i = 0; i < 20; i++) {
     object.scale.x = 2;
     object.scale.y = 3.5;
     object.scale.z = 0.1;
-
-    // console.log(object);
 
     object.castShadow = true;
     object.receiveShadow = true;
@@ -405,6 +413,14 @@ function handleSelection() {
     var intersects = raycaster.intersectObjects(objects);
     if (intersects.length > 0) {
 
+        scene.getObjectByName("doors").visible = false;
+        //Display gallery function
+
+        createGallery();
+
+        // console.log(scene.getObjectByName("doors"));
+        //
+
         console.log("touch intersect!");
         var object = intersects[0].object;
         var date = app.context.getTime();
@@ -439,6 +455,10 @@ function handleSelection() {
         // console.log("touch DEVICE _value pos=" + (object.entity.position as any)._value);
         // console.log("touch DEVICE _value quat=" + (object.entity.orientation as any)._value)
         // console.log("------");
+
+        scene.getObjectByName("doors").position.y = 10;
+        console.log(scene.getObjectByName("doors"));
+
         if (!isCrosshair) {
             var worldLoc = user.localToWorld(SELECTED.position.clone());
             plane.setFromNormalAndCoplanarPoint(camera.getWorldDirection(plane.normal), worldLoc);
@@ -475,6 +495,50 @@ function handlePointerMove(x, y) {
         INTERSECTED = null;
     }
 }
+
+
+function createGallery() {
+
+// set up 50 cubes, each with its own entity
+    var geometry = new THREE.BoxGeometry(1, 1, 1);
+
+    for (var i = 0; i < 10; i++) {
+        var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt.jpg') } );
+        // var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt'+ i +'.jpg') } );
+        var object = new THREE.Mesh(geometry, material1);
+
+        object.position.x = Math.random() * 60 - 25;
+        object.position.y = Math.random() * 5;
+        object.position.z = Math.random() * 10 -20;
+
+        // object.rotation.x = Math.random() * 2 * Math.PI;
+        // object.rotation.y = Math.random() * 2 * Math.PI;
+        // object.rotation.z = Math.random() * 2 * Math.PI;
+
+        object.scale.x = Math.random() * 3 + 1;
+        object.scale.y = Math.random() * 3 + 1;
+        object.scale.z = Math.random() * 3 + 1;
+
+        object.castShadow = true;
+        object.receiveShadow = true;
+        galleryScene.add(object);
+
+        // position the cube relative to the boxScene object and entity
+        object.entity = new Argon.Cesium.Entity({
+            name: "gal " + i,
+            position: Cartesian3.ZERO,
+            orientation: Cesium.Quaternion.IDENTITY
+        });
+
+        // set the value of the box Entity to this local position, by
+        // specifying the frame of reference to our local frame
+        object.entity.position.setValue(object.position, boxSceneEntity);
+        // orient the box according to the local world frame
+        object.entity.orientation.setValue(object.quaternion);
+        galleries.push(object);
+    }
+}
+
 // since these don't move, we only update them when the origin changes
 app.context.localOriginChangeEvent.addEventListener(function () {
     if (boxInit) {
