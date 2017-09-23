@@ -2,10 +2,147 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddf42ac2-b34a-4cab-928e-302469233964" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/GVUBrochure.pdf" afterPath="$PROJECT_DIR$/docs/resources/GVUBrochure.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/TechSquare.pdf" afterPath="$PROJECT_DIR$/docs/resources/TechSquare.pdf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_0.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_0.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_1.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_10.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_10.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_11.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_11.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_12.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_12.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_13.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_13.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_14.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_14.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_15.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_15.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_16.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_16.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_17.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_17.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_18.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_19.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_19.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_2.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_20.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_20.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_21.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_21.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_22.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_22.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_23.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_23.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_24.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_24.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_25.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_25.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_26.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_26.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_27.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_27.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_3.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_3.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_4.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_4.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_5.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_5.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_6.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_6.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_7.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_7.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_8.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_8.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_9.json" afterPath="$PROJECT_DIR$/docs/resources/cesium/Assets/IAU2006_XYS/IAU2006_XYS_9.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/ArgonTutorial.dat" afterPath="$PROJECT_DIR$/docs/resources/datasets/ArgonTutorial.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/ArgonTutorial.xml" afterPath="$PROJECT_DIR$/docs/resources/datasets/ArgonTutorial.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/GVUBrochure.dat" afterPath="$PROJECT_DIR$/docs/resources/datasets/GVUBrochure.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/GVUBrochure.xml" afterPath="$PROJECT_DIR$/docs/resources/datasets/GVUBrochure.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/StonesAndChips.dat" afterPath="$PROJECT_DIR$/docs/resources/datasets/StonesAndChips.dat" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/datasets/StonesAndChips.xml" afterPath="$PROJECT_DIR$/docs/resources/datasets/StonesAndChips.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/fonts/LICENSE" afterPath="$PROJECT_DIR$/docs/resources/fonts/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/fonts/helvetiker_bold.typeface.json" afterPath="$PROJECT_DIR$/docs/resources/fonts/helvetiker_bold.typeface.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/fonts/helvetiker_regular.typeface.json" afterPath="$PROJECT_DIR$/docs/resources/fonts/helvetiker_regular.typeface.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/geometries/DecalGeometry.js" afterPath="$PROJECT_DIR$/docs/resources/geometries/DecalGeometry.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/CHANGELOG.md" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/CHANGELOG.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/LICENSE.txt" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/LICENSE.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/README.md" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/dist/argon.core.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/dist/argon.core.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/dist/argon.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/dist/argon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/dist/argon.min.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/dist/argon.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/index.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/node_modules/@types/cesium/index.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/types/cesium/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/node_modules/@types/cesium/package.json" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/node_modules/@types/cesium/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/node_modules/@types/mobile-detect/index.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/types/mobile-detect/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/node_modules/@types/mobile-detect/package.json" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/node_modules/@types/mobile-detect/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/package.json" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/README.md" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/argon.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/argon.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/argon.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/argon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/MapzenTerrariumTerrainProvider.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/MapzenTerrariumTerrainProvider.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/MapzenTerrariumTerrainProvider.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/MapzenTerrariumTerrainProvider.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/cesium-extensions.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/cesium-extensions.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/cesium-extensions.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/cesium-extensions.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/cesium-imports.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/cesium-imports.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/cesium/cesium-imports.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/cesium/cesium-imports.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/common.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/common.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/common.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/common.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/context.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/context.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/context.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/context.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/device.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/device.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/device.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/device.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/entity.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/entity.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/entity.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/entity.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/focus.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/focus.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/focus.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/focus.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/permission.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/permission.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/permission.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/permission.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/base.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/base.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/base.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/base.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/empty.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/empty.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/empty.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/empty.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/hosted.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/hosted.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/hosted.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/hosted.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/live.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/live.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/live.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/live.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality-viewers/webrtc.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality-viewers/webrtc.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/reality.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/reality.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/session.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/session.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/session.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/session.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/ui.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/ui.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/ui.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/ui.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/command-queue.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/command-queue.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/command-queue.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/command-queue.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/event.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/event.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/event.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/event.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/message-channel.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/message-channel.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/message-channel.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/message-channel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/ui-event-forwarder.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/ui-event-forwarder.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/ui-event-forwarder.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/ui-event-forwarder.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/ui-event-synthesizer.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/ui-event-synthesizer.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/utils/ui-event-synthesizer.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/ui-event-synthesizer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/view.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/view.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/view.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/view.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/visibility.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/visibility.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/visibility.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/visibility.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/vuforia.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/vuforia.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/vuforia.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/vuforia.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/webvr.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/webvr.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/src/webvr.js" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/webvr.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/types/cesium/index.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/node_modules/@types/cesium/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/types/cesium/package.json" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/types/cesium/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/types/declarations.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/types/declarations.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/types/mobile-detect/index.d.ts" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/node_modules/@types/mobile-detect/index.d.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/@argonjs/argon/types/mobile-detect/package.json" afterPath="$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/types/mobile-detect/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/ArgonSunMoon.js" afterPath="$PROJECT_DIR$/docs/resources/lib/ArgonSunMoon.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/CSS3DArgonHUD.js" afterPath="$PROJECT_DIR$/docs/resources/lib/CSS3DArgonHUD.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/CSS3DArgonRenderer.js" afterPath="$PROJECT_DIR$/docs/resources/lib/CSS3DArgonRenderer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/dat.gui.min.js" afterPath="$PROJECT_DIR$/docs/resources/lib/dat.gui.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/stats.min.js" afterPath="$PROJECT_DIR$/docs/resources/lib/stats.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/three/modifiers/ExplodeModifier.js" afterPath="$PROJECT_DIR$/docs/resources/lib/three/modifiers/ExplodeModifier.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/three/modifiers/TessellateModifier.js" afterPath="$PROJECT_DIR$/docs/resources/lib/three/modifiers/TessellateModifier.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/three/three.min.js" afterPath="$PROJECT_DIR$/docs/resources/lib/three/three.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/lib/tween.min.js" afterPath="$PROJECT_DIR$/docs/resources/lib/tween.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/.htaccess" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/Infinite-Level_02_Tangent_SmoothUV.jpg" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/Infinite-Level_02_Tangent_SmoothUV.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/LeePerrySmith.js" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/LeePerrySmith.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/LeePerrySmith.obj" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/LeePerrySmith.obj" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/LeePerrySmith_License.txt" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/LeePerrySmith_License.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/Map-COL.jpg" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/Map-COL.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/obj/leeperrysmith/Map-SPEC.jpg" afterPath="$PROJECT_DIR$/docs/resources/obj/leeperrysmith/Map-SPEC.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/textures/decal/LICENSE.TXT" afterPath="$PROJECT_DIR$/docs/resources/textures/decal/LICENSE.TXT" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/textures/decal/decal-diffuse.png" afterPath="$PROJECT_DIR$/docs/resources/textures/decal/decal-diffuse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/textures/decal/decal-normal.jpg" afterPath="$PROJECT_DIR$/docs/resources/textures/decal/decal-normal.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/app.js" afterPath="$PROJECT_DIR$/docs/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/style.css" afterPath="$PROJECT_DIR$/docs/style.css" />
     </list>
     <ignored path="glamory.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,12 +157,46 @@
   <component name="FavoritesManager">
     <favorites_list name="glamory" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-270">
+              <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="n#!!block;n#onDocumentKeyStart#0" expanded="false" />
+                <element signature="n#!!block;n#onDocumentKeyEnd#0" expanded="false" />
+                <element signature="e#7783#14718#0" expanded="false" />
+                <element signature="n#!!block;n#handleRelease#0" expanded="false" />
+                <element signature="e#17814#18250#0" expanded="false" />
+                <element signature="n#!!block;n#handlePointerMove#0" expanded="false" />
+                <element signature="e#19207#19460#0" expanded="false" />
+                <element signature="e#19859#23668#0" expanded="false" />
+                <element signature="e#23796#25957#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docs/style.css" />
+        <option value="$PROJECT_DIR$/docs/app.js" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -87,6 +258,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glamory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glamory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glamory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="glamory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app.ts" />
+              <option name="myItemType" value="com.intellij.lang.typescript.compiler.ui.projectView.TypeScriptNestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -106,6 +309,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -722,12 +930,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506145215165</updated>
-      <workItem from="1506145216423" duration="119000" />
+      <workItem from="1506145216423" duration="2480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119000" />
+    <option name="totallyTimeSpent" value="2480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="23" width="1356" height="774" extended-state="0" />
@@ -742,10 +950,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -774,5 +982,132 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/original-draggablecubes-example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3222">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/three/modifiers/ExplodeModifier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/three/modifiers/TessellateModifier.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/three/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/event.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/command-queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/command-queue.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/message-channel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/resources/lib/@argonjs/argon/src/utils/message-channel.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!block;n#onDocumentKeyStart#0" expanded="false" />
+            <element signature="n#!!block;n#onDocumentKeyEnd#0" expanded="false" />
+            <element signature="e#7783#14718#0" expanded="false" />
+            <element signature="n#!!block;n#handleRelease#0" expanded="false" />
+            <element signature="e#17814#18250#0" expanded="false" />
+            <element signature="n#!!block;n#handlePointerMove#0" expanded="false" />
+            <element signature="e#19207#19460#0" expanded="false" />
+            <element signature="e#19859#23668#0" expanded="false" />
+            <element signature="e#23796#25957#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

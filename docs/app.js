@@ -19,7 +19,8 @@ var app = Argon.init();
 app.context.subscribeGeolocation({ enableHighAccuracy: true });
 
 // install a secondary reality that the user can select from on the desktop
-app.reality.install(Argon.resolveURL('../streetview-reality/index.html'));
+// app.reality.install(Argon.resolveURL('../streetview-reality/index.html'));
+
 // We use the standard WebGLRenderer when we only need WebGL-based content
 var renderer = new THREE.WebGLRenderer({
     alpha: true,
@@ -124,16 +125,16 @@ var geoLocked = false;
 
 
 
-var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('images/crate.jpg') } );
+var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/door.png') } );
 
 // set up 50 cubes, each with its own entity
 var geometry = new THREE.BoxGeometry(1, 1, 1);
-for (var i = 0; i < 50; i++) {
-    var object = new THREE.Mesh(geometry, new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }));
-    object.position.x = Math.random() * 50 - 25;
-    // object.position.y = Math.random() * 10 + 1;
+for (var i = 0; i < 20; i++) {
+    // var object = new THREE.Mesh(geometry, new THREE.MeshLambertMaterial({ color: Math.random() * 0xffffff }));
+    var object = new THREE.Mesh(geometry, material1);
+    object.position.x = Math.random() * 60 - 25;
     object.position.y = 0;
-    object.position.z = Math.random() * 50 - 25;
+    object.position.z = Math.random() * 10 -20;
     // object.rotation.x = Math.random() * 2 * Math.PI;
     // object.rotation.y = Math.random() * 2 * Math.PI;
     // object.rotation.z = Math.random() * 2 * Math.PI;
@@ -141,9 +142,9 @@ for (var i = 0; i < 50; i++) {
     // object.scale.x = Math.random() * 3 + 1;
     // object.scale.y = Math.random() * 3 + 1;
     // object.scale.z = Math.random() * 3 + 1;
-    // object.scale.x = 2;
-    // object.scale.y = 2;
-    // object.scale.z = 1;
+    object.scale.x = 2;
+    object.scale.y = 3.5;
+    object.scale.z = 0.1;
 
     console.log(object);
 
@@ -165,7 +166,6 @@ for (var i = 0; i < 50; i++) {
     object.entity.orientation.setValue(object.quaternion);
     objects.push(object);
 }
-
 
 
 document.addEventListener('keydown', onDocumentKeyStart, false);
@@ -204,8 +204,8 @@ function onDocumentKeyEnd(event) {
 app.view.uiEvent.addEventListener(function (evt) {
     var event = evt.event;
     if (event.defaultPrevented) {
-        console.log("event was consumed");
-        console.log(event);
+        // console.log("event was consumed");
+        // console.log(event);
         evt.forwardEvent();
         return; // Should do nothing if the key event was already consumed.
     }
@@ -273,8 +273,8 @@ app.view.uiEvent.addEventListener(function (evt) {
                 evt.forwardEvent();
                 return; // ignore duplicate events
             }
-            console.log("touch start: ");
-            console.log(event);
+            // console.log("touch start: ");
+            // console.log(event);
             event.preventDefault();
             // try the first new touch ... seems unlikely there will be TWO new touches
             // at exactly the same time
@@ -292,7 +292,7 @@ app.view.uiEvent.addEventListener(function (evt) {
                 if (event.type == "mousedown") {
                     // ignore mouse down events for selection in crosshair mode, they must
                     // use the keyboard
-                    console.log("mousedown ignored");
+                    // console.log("mousedown ignored");
                     evt.forwardEvent();
                     return;
                 }
@@ -334,8 +334,8 @@ app.view.uiEvent.addEventListener(function (evt) {
                 evt.forwardEvent();
                 return; // ignore duplicate events
             }
-            console.log("touch end: ");
-            console.log(event);
+            // console.log("touch end: ");
+            // console.log(event);
             event.preventDefault();
             for (ti = 0; ti < event.changedTouches.length; ti++) {
                 //console.log("changedTouches[" + i + "].identifier = " + e.changedTouches[i].identifier);
@@ -352,7 +352,7 @@ app.view.uiEvent.addEventListener(function (evt) {
             if (isCrosshair && event.type == "mouseup") {
                 // ignore mouse up events for selection in crosshair mode, they must
                 // use the keyboard
-                console.log("release ignored");
+                // console.log("release ignored");
                 evt.forwardEvent();
                 return;
             }
@@ -401,21 +401,22 @@ function handleRelease() {
 function handleSelection() {
     scene.updateMatrixWorld(true);
     raycaster.setFromCamera(mouse, camera);
-    console.log("touch!");
+    // console.log("touch!");
     var intersects = raycaster.intersectObjects(objects);
     if (intersects.length > 0) {
+
         console.log("touch intersect!");
         var object = intersects[0].object;
         var date = app.context.getTime();
         var defaultFrame = app.context.getDefaultReferenceFrame();
         var oldpose = app.context.getEntityPose(object.entity);
-        console.log("------");
-        console.log("touch FIXED pos=" + oldpose.position);
-        console.log("touch FIXED quat=" + oldpose.orientation);
-        console.log("touch FIXED _value pos=" + object.entity.position._value);
-        console.log("touch FIXED _value quat=" + object.entity.orientation._value);
+        // console.log("------");
+        // console.log("touch FIXED pos=" + oldpose.position);
+        // console.log("touch FIXED quat=" + oldpose.orientation);
+        // console.log("touch FIXED _value pos=" + object.entity.position._value);
+        // console.log("touch FIXED _value quat=" + object.entity.orientation._value);
         if (!Argon.convertEntityReferenceFrame(object.entity, date, app.context.user)) {
-            console.log("touch convert fail");
+            // console.log("touch convert fail");
             return false;
         }
         // var newpose = app.context.getEntityPose(object.entity);
@@ -427,6 +428,7 @@ function handleSelection() {
         boxScene.remove(object);
         user.add(object);
         SELECTED = object;
+
         // get the pose in the local coordinates of user
         var boxPose = app.context.getEntityPose(SELECTED.entity, app.context.user);
         SELECTED.position.copy(boxPose.position);
@@ -476,7 +478,7 @@ function handlePointerMove(x, y) {
 // since these don't move, we only update them when the origin changes
 app.context.localOriginChangeEvent.addEventListener(function () {
     if (boxInit) {
-        console.log("**** new frame of reference");
+        // console.log("**** new frame of reference");
         var boxPose = app.context.getEntityPose(boxSceneEntity);
         boxScene.position.copy(boxPose.position);
         boxScene.quaternion.copy(boxPose.orientation);
@@ -484,7 +486,7 @@ app.context.localOriginChangeEvent.addEventListener(function () {
 });
 // check if the reality has a geopose
 app.reality.changeEvent.addEventListener(function (data) {
-    console.log("Reality changed from '" + data.previous + "' to '" + data.current);
+    // console.log("Reality changed from '" + data.previous + "' to '" + data.current);
 });
 // the updateEvent is called each time the 3D world should be
 // rendered, before the renderEvent.  The state of your application
@@ -517,7 +519,7 @@ app.updateEvent.addEventListener(function (frame) {
         // we'll start by moving the boxes to the stage coordinates, which we should have and should
         // be a good local coordinate system for any device
         if (!Argon.convertEntityReferenceFrame(boxSceneEntity, frame.time, app.context.stage)) {
-            console.log("UNEXPECTED:  can't convert boxScene to STAGE coordinates.");
+            // console.log("UNEXPECTED:  can't convert boxScene to STAGE coordinates.");
         }
     }
     // if we were using geo coordinates, but can't any longer, recenter the scene on the user
@@ -531,10 +533,10 @@ app.updateEvent.addEventListener(function (frame) {
             boxSceneEntity.orientation.setValue(userPose.orientation);
             geoLocked = false;
             if (Argon.convertEntityReferenceFrame(boxSceneEntity, frame.time, app.context.stage)) {
-                console.log("No longer have geospatial coordinates, moved boxes back to stage");
+                // console.log("No longer have geospatial coordinates, moved boxes back to stage");
             }
             else {
-                console.log("No longer have geospatial coordinates, but FAILED to move boxes back to stage");
+                // console.log("No longer have geospatial coordinates, but FAILED to move boxes back to stage");
             }
         }
     }
@@ -545,7 +547,7 @@ app.updateEvent.addEventListener(function (frame) {
             // now convert the entity from our local reference frame to world coordinates if we can
             if (Argon.convertEntityReferenceFrame(boxSceneEntity, frame.time, ReferenceFrame.FIXED)) {
                 geoLocked = true;
-                console.log("Successfully positioned the boxes in the world");
+                // console.log("Successfully positioned the boxes in the world");
             }
         }
     }
