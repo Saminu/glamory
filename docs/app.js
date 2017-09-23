@@ -517,7 +517,7 @@ function createGallery() {
 
         object.scale.x = Math.random() * 3 + 1;
         object.scale.y = Math.random() * 3 + 1;
-        object.scale.z = Math.random() * 3 + 1;
+        object.scale.z = 0.1;
 
         object.castShadow = true;
         object.receiveShadow = true;
