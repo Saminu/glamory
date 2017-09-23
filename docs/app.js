@@ -413,8 +413,10 @@ function handleSelection() {
     var intersects = raycaster.intersectObjects(objects);
     if (intersects.length > 0) {
 
+        scene.getObjectByName("doors").position.y = 1000;
         scene.getObjectByName("doors").visible = false;
         //Display gallery function
+        // console.log(scene.getObjectByName("doors"));
 
         createGallery();
 
@@ -455,9 +457,6 @@ function handleSelection() {
         // console.log("touch DEVICE _value pos=" + (object.entity.position as any)._value);
         // console.log("touch DEVICE _value quat=" + (object.entity.orientation as any)._value)
         // console.log("------");
-
-        scene.getObjectByName("doors").position.y = 10;
-        console.log(scene.getObjectByName("doors"));
 
         if (!isCrosshair) {
             var worldLoc = user.localToWorld(SELECTED.position.clone());
@@ -503,8 +502,8 @@ function createGallery() {
     var geometry = new THREE.BoxGeometry(1, 1, 1);
 
     for (var i = 0; i < 10; i++) {
-        var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt.jpg') } );
-        // var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt'+ i +'.jpg') } );
+        // var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt.jpg') } );
+        var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/klimt'+ i +'.jpg') } );
         var object = new THREE.Mesh(geometry, material1);
 
         object.position.x = Math.random() * 60 - 25;

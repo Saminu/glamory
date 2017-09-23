@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddf42ac2-b34a-4cab-928e-302469233964" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/img/klimt.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/app.js" afterPath="$PROJECT_DIR$/docs/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
     </list>
     <ignored path="glamory.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +28,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="499" column="25" selection-start-line="499" selection-start-column="25" selection-end-line="499" selection-end-column="25" />
+            <state relative-caret-position="223">
+              <caret line="418" column="55" selection-start-line="418" selection-start-column="55" selection-end-line="418" selection-end-column="55" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#2383#2900#0" expanded="false" />
@@ -39,14 +39,11 @@
                 <element signature="n#!!block;n#onDocumentKeyEnd#0" expanded="false" />
                 <element signature="e#7933#14868#0" expanded="false" />
                 <element signature="n#!!block;n#handleRelease#0" expanded="false" />
-                <element signature="e#18261#18697#0" expanded="false" />
-                <element signature="n#!!block;n#handlePointerMove#0" expanded="false" />
-                <element signature="n#!!block;n#createGallery#0" expanded="false" />
-                <element signature="e#19679#21164#0" expanded="false" />
-                <element signature="e#20659#20791#0" expanded="false" />
-                <element signature="e#21303#21556#0" expanded="false" />
-                <element signature="e#21955#25764#0" expanded="false" />
-                <element signature="e#25892#28053#0" expanded="false" />
+                <element signature="e#18265#18701#0" expanded="false" />
+                <element signature="e#20663#20795#0" expanded="false" />
+                <element signature="e#21307#21560#0" expanded="false" />
+                <element signature="e#21959#25768#0" expanded="false" />
+                <element signature="e#25896#28057#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -825,12 +822,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1506145215165</updated>
-      <workItem from="1506145216423" duration="7069000" />
+      <workItem from="1506145216423" duration="8512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7069000" />
+    <option name="totallyTimeSpent" value="8512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="23" width="1356" height="774" extended-state="0" />
@@ -845,7 +842,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27272728" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961948" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -875,7 +872,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -988,8 +987,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="499" column="25" selection-start-line="499" selection-start-column="25" selection-end-line="499" selection-end-column="25" />
+        <state relative-caret-position="223">
+          <caret line="418" column="55" selection-start-line="418" selection-start-column="55" selection-end-line="418" selection-end-column="55" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2383#2900#0" expanded="false" />
@@ -999,14 +998,11 @@
             <element signature="n#!!block;n#onDocumentKeyEnd#0" expanded="false" />
             <element signature="e#7933#14868#0" expanded="false" />
             <element signature="n#!!block;n#handleRelease#0" expanded="false" />
-            <element signature="e#18261#18697#0" expanded="false" />
-            <element signature="n#!!block;n#handlePointerMove#0" expanded="false" />
-            <element signature="n#!!block;n#createGallery#0" expanded="false" />
-            <element signature="e#19679#21164#0" expanded="false" />
-            <element signature="e#20659#20791#0" expanded="false" />
-            <element signature="e#21303#21556#0" expanded="false" />
-            <element signature="e#21955#25764#0" expanded="false" />
-            <element signature="e#25892#28053#0" expanded="false" />
+            <element signature="e#18265#18701#0" expanded="false" />
+            <element signature="e#20663#20795#0" expanded="false" />
+            <element signature="e#21307#21560#0" expanded="false" />
+            <element signature="e#21959#25768#0" expanded="false" />
+            <element signature="e#25896#28057#0" expanded="false" />
           </folding>
         </state>
       </provider>
