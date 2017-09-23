@@ -146,7 +146,7 @@ for (var i = 0; i < 20; i++) {
     object.scale.y = 3.5;
     object.scale.z = 0.1;
 
-    console.log(object);
+    // console.log(object);
 
     object.castShadow = true;
     object.receiveShadow = true;
