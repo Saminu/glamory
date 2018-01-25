@@ -134,7 +134,7 @@ var touchID; // which touch caused the selection?
 var boxInit = false;
 var geoLocked = false;
 
-
+//new doors creation
 var material1 = new THREE.MeshPhongMaterial( { map: THREE.ImageUtils.loadTexture('img/door.png') } );
 // set up 50 cubes, each with its own entity
 var geometry = new THREE.BoxGeometry(1, 1, 1);
@@ -424,6 +424,7 @@ function handleSelection() {
         //
 
         console.log("touch intersect!");
+
         var object = intersects[0].object;
         var date = app.context.getTime();
         var defaultFrame = app.context.getDefaultReferenceFrame();
